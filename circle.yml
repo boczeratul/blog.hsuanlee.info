@@ -8,7 +8,7 @@ test:
 
 compile:
   override:
-    - hexo generate
+    - npm run build
 
 deployment:
   production:
