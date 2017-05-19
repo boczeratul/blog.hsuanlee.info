@@ -1,0 +1,5 @@
+deployment:
+  production:
+    branch: master
+    commands:
+      - curl -v -X POST https://circleci.com/api/v1/project/boczeratul/hsuanlee.info/tree/master?circle-token=$CIRCLE_TOKEN
