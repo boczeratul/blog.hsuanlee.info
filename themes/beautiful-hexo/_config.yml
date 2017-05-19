@@ -1,14 +1,14 @@
 navbar-links:
     Archive: /archives
     GitHub: https://github.com/boczeratul/blog.hsuanlee.info
-    About: /about/
+    About: /about
 
 avatar: /hsuan.jpg
 favicon: /hsuan.jpg
 
 header:
     title: "Hsuan Lee"
-    motto: Build a beautiful and simple website in minutes
+    motto: Live deep and suck out all the marrow of life.
     bigimgs:
         - src: /bigimgs/01.jpg
           desc: beautiful island
@@ -48,7 +48,7 @@ footer:
     link: '/atom.xml'
     title: RSS
     icon: fa-rss
-    enable: true
+    enable: false
   twitter:
     link: 'https://twitter.com/boczeratul'
     title: Twitter
