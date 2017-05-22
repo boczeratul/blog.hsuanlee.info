@@ -576,3 +576,18 @@ figure.highlight>table tr {
 figure.highlight>table .gutter {
     display:none;
 }
+
+.jf-loading body {
+    opacity: 0;
+    visibility: hidden;
+}
+.jf-active *, .jf-inactive * {
+    opacity: 1;
+    visibility: visible;
+}
+.jf-active *, .jf-inactive * {
+    -webkit-transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
+    transition: opacity .5s ease-out;
+}
