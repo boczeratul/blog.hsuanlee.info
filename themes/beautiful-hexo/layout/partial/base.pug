@@ -1,13 +1,13 @@
 doctype
 html(lang=config.language)
     head
-        include head
+        include head.pug
     body
-        include nav
+        include nav.pug
 
         block header
         block content
         block comment
 
-        include footer
-        include footer-scripts
+        include footer.pug
+        include footer-scripts.pug
