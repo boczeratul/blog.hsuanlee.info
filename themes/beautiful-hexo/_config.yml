@@ -72,6 +72,9 @@ footer:
 
 google_analytics:
 
+facebook:
+  appID: 436839533084033
+
 comment:
   enable: false
   disqus: boczeratul
