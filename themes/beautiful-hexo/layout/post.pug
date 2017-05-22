@@ -1,6 +1,6 @@
 extends partial/base
 
-include partial/post-meta
+include partial/post-meta.pug
 
 
 block header
@@ -29,7 +29,7 @@ block content
                         li.next
                             a(href=url_for(page.next.path), data-toggle="tooltip", data-placement="top", title=page.next.title)= __('next_post')
 
-                include partial/comment
+                include partial/comment.pug
 
 
 
